@@ -34,41 +34,101 @@ public class Municipio {
         this.populacaoUrbanaResidenteEsgotoIbge = populacaoUrbanaResidenteEsgotoIbge;
     }
 
-    public Integer getAno() { return ano; }
-    public void setAno(Integer ano) { this.ano = ano; }
+    public Integer getAno() {
+        return ano;
+    }
 
-    public Integer getIdMunicipio() { return idMunicipio; }
-    public void setIdMunicipio(Integer idMunicipio) { this.idMunicipio = idMunicipio; }
+    public void setAno(Integer ano) {
+        this.ano = ano;
+    }
 
-    public String getSiglaUf() { return siglaUf; }
-    public void setSiglaUf(String siglaUf) { this.siglaUf = siglaUf; }
+    public Integer getIdMunicipio() {
+        return idMunicipio;
+    }
 
-    public Integer getPopulacaoAtendidaAgua() { return populacaoAtendidaAgua; }
-    public void setPopulacaoAtendidaAgua(Integer populacaoAtendidaAgua) { this.populacaoAtendidaAgua = populacaoAtendidaAgua; }
+    public void setIdMunicipio(Integer idMunicipio) {
+        this.idMunicipio = idMunicipio;
+    }
 
-    public Integer getPopulacaoAtendidaEsgoto() { return populacaoAtendidaEsgoto; }
-    public void setPopulacaoAtendidaEsgoto(Integer populacaoAtendidaEsgoto) { this.populacaoAtendidaEsgoto = populacaoAtendidaEsgoto; }
+    public String getSiglaUf() {
+        return siglaUf;
+    }
 
-    public Integer getPopulacaoUrbana() { return populacaoUrbana; }
-    public void setPopulacaoUrbana(Integer populacaoUrbana) { this.populacaoUrbana = populacaoUrbana; }
+    public void setSiglaUf(String siglaUf) {
+        this.siglaUf = siglaUf;
+    }
 
-    public Integer getPopulacaoUrbanaResidenteAgua() { return populacaoUrbanaResidenteAgua; }
-    public void setPopulacaoUrbanaResidenteAgua(Integer populacaoUrbanaResidenteAgua) { this.populacaoUrbanaResidenteAgua = populacaoUrbanaResidenteAgua; }
+    public Integer getPopulacaoAtendidaAgua() {
+        return populacaoAtendidaAgua;
+    }
 
-    public Integer getPopulacaoUrbanaAtendidaAgua() { return populacaoUrbanaAtendidaAgua; }
-    public void setPopulacaoUrbanaAtendidaAgua(Integer populacaoUrbanaAtendidaAgua) { this.populacaoUrbanaAtendidaAgua = populacaoUrbanaAtendidaAgua; }
+    public void setPopulacaoAtendidaAgua(Integer populacaoAtendidaAgua) {
+        this.populacaoAtendidaAgua = populacaoAtendidaAgua;
+    }
 
-    public Integer getPopulacaoUrbanaAtendidaAguaIbge() { return populacaoUrbanaAtendidaAguaIbge; }
-    public void setPopulacaoUrbanaAtendidaAguaIbge(Integer populacaoUrbanaAtendidaAguaIbge) { this.populacaoUrbanaAtendidaAguaIbge = populacaoUrbanaAtendidaAguaIbge; }
+    public Integer getPopulacaoAtendidaEsgoto() {
+        return populacaoAtendidaEsgoto;
+    }
 
-    public Integer getPopulacaoUrbanaResidenteEsgoto() { return populacaoUrbanaResidenteEsgoto; }
-    public void setPopulacaoUrbanaResidenteEsgoto(Integer populacaoUrbanaResidenteEsgoto) { this.populacaoUrbanaResidenteEsgoto = populacaoUrbanaResidenteEsgoto; }
+    public void setPopulacaoAtendidaEsgoto(Integer populacaoAtendidaEsgoto) {
+        this.populacaoAtendidaEsgoto = populacaoAtendidaEsgoto;
+    }
 
-    public Integer getPopulacaoUrbanaAtendidaEsgoto() { return populacaoUrbanaAtendidaEsgoto; }
-    public void setPopulacaoUrbanaAtendidaEsgoto(Integer populacaoUrbanaAtendidaEsgoto) { this.populacaoUrbanaAtendidaEsgoto = populacaoUrbanaAtendidaEsgoto; }
+    public Integer getPopulacaoUrbana() {
+        return populacaoUrbana;
+    }
 
-    public Integer getPopulacaoUrbanaResidenteEsgotoIbge() { return populacaoUrbanaResidenteEsgotoIbge; }
-    public void setPopulacaoUrbanaResidenteEsgotoIbge(Integer populacaoUrbanaResidenteEsgotoIbge) { this.populacaoUrbanaResidenteEsgotoIbge = populacaoUrbanaResidenteEsgotoIbge; }
+    public void setPopulacaoUrbana(Integer populacaoUrbana) {
+        this.populacaoUrbana = populacaoUrbana;
+    }
+
+    public Integer getPopulacaoUrbanaResidenteAgua() {
+        return populacaoUrbanaResidenteAgua;
+    }
+
+    public void setPopulacaoUrbanaResidenteAgua(Integer populacaoUrbanaResidenteAgua) {
+        this.populacaoUrbanaResidenteAgua = populacaoUrbanaResidenteAgua;
+    }
+
+    public Integer getPopulacaoUrbanaAtendidaAgua() {
+        return populacaoUrbanaAtendidaAgua;
+    }
+
+    public void setPopulacaoUrbanaAtendidaAgua(Integer populacaoUrbanaAtendidaAgua) {
+        this.populacaoUrbanaAtendidaAgua = populacaoUrbanaAtendidaAgua;
+    }
+
+    public Integer getPopulacaoUrbanaAtendidaAguaIbge() {
+        return populacaoUrbanaAtendidaAguaIbge;
+    }
+
+    public void setPopulacaoUrbanaAtendidaAguaIbge(Integer populacaoUrbanaAtendidaAguaIbge) {
+        this.populacaoUrbanaAtendidaAguaIbge = populacaoUrbanaAtendidaAguaIbge;
+    }
+
+    public Integer getPopulacaoUrbanaResidenteEsgoto() {
+        return populacaoUrbanaResidenteEsgoto;
+    }
+
+    public void setPopulacaoUrbanaResidenteEsgoto(Integer populacaoUrbanaResidenteEsgoto) {
+        this.populacaoUrbanaResidenteEsgoto = populacaoUrbanaResidenteEsgoto;
+    }
+
+    public Integer getPopulacaoUrbanaAtendidaEsgoto() {
+        return populacaoUrbanaAtendidaEsgoto;
+    }
+
+    public void setPopulacaoUrbanaAtendidaEsgoto(Integer populacaoUrbanaAtendidaEsgoto) {
+        this.populacaoUrbanaAtendidaEsgoto = populacaoUrbanaAtendidaEsgoto;
+    }
+
+    public Integer getPopulacaoUrbanaResidenteEsgotoIbge() {
+        return populacaoUrbanaResidenteEsgotoIbge;
+    }
+
+    public void setPopulacaoUrbanaResidenteEsgotoIbge(Integer populacaoUrbanaResidenteEsgotoIbge) {
+        this.populacaoUrbanaResidenteEsgotoIbge = populacaoUrbanaResidenteEsgotoIbge;
+    }
 
     @Override
     public String toString() {

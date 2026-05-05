@@ -8,9 +8,9 @@ public class DBConexao {
 
     public DBConexao() {
         BasicDataSource ds = new BasicDataSource();
-        ds.setUrl("jdbc:mysql://localhost:3306/exemplo_conexao?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true");
-        ds.setUsername("dev_user");
-        ds.setPassword("senha123");
+        ds.setUrl("jdbc:mysql://localhost:3306/EasyData?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true");
+        ds.setUsername("Easy");
+        ds.setPassword("Easydata@2026");
         ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
         ds.setInitialSize(5);
         ds.setMaxTotal(10);
