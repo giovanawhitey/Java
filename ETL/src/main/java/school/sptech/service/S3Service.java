@@ -7,7 +7,7 @@ import java.io.InputStream;
 
 public class S3Service {
     private final S3Client s3 = S3Config.getS3Client();
-    private final String bucketNome = "23042026-easydata";
+    private final String bucketNome = "easydata";
 
     public InputStream obterArquivo(String chaveS3) {
         GetObjectRequest request = GetObjectRequest.builder()
